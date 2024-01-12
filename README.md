@@ -35,9 +35,12 @@ When combined with custom scripts, it allows for:
   - Change shadow on mouse hover (callout, buttons)
 - Uniform formula size to match font size
 - Reference and navigation to specific parts of an excalidraw canvas
-- Laser pen settings
-- Customize the names of saved attachments
 - Play GIF within shapes (not as an iframe)
+- Settings
+  - Laser pen settings
+  - Customize the names of saved attachments
+  - Whether to embed font information when exporting SVG.
+  - Whether to display all arrow options.
 
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
