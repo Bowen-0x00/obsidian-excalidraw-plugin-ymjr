@@ -41,6 +41,7 @@ When combined with custom scripts, it allows for:
   - Customize the names of saved attachments
   - Whether to embed font information when exporting SVG.
   - Whether to display all arrow options.
+- Fixed element to screen
 
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
