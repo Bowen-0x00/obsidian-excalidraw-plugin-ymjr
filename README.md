@@ -4,8 +4,9 @@ This is a modified version of the [obsidian-excalidraw-plugin](https://github.co
 
 [English](./README.md) | [简体中文](docs/README_ZH.md)
 
-Based on my specific needs, I made necessary modifications to the [obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin) when custom scripts couldn't fulfill those requirements.
+Based on my specific needs, I made necessary modifications to the obsidian-excalidraw-plugin when custom scripts couldn't fulfill those requirements.
 
+You can find the custom scripts at [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts) (Uploading...)
 ## Features
 Here are the functionalities that required modifications in order to be implemented.
 
@@ -23,17 +24,21 @@ When combined with custom scripts, it allows for:
   - Play GIF frame by frame
   - Show/hide individual elements in the current view
 - Bold text
+  - <img src="images/partial highlight2.gif" width="300px">
 - Indentation of the first line of text in containers
 - Gradient for shapes and text
 - Shadow for shapes and text
 - Layer functionality
+  - <img src="images/layer3.gif" width="300px">
 - Fix for wrapping issues with Chinese characters
 - Dragging point hook
   - Measurement feature
 - Display canvas thumbnail
+  - <img src="images/thumbnail2.gif" width="300px">
 - Mouse hover hook
   - Change shadow on mouse hover (callout, buttons)
 - Uniform formula size to match font size
+  - <img src="images/latex_fit2.gif" width="300px">
 - Reference and navigation to specific parts of an excalidraw canvas
 - Play GIF within shapes (not as an iframe)
 - Settings
@@ -42,7 +47,12 @@ When combined with custom scripts, it allows for:
   - Whether to embed font information when exporting SVG.
   - Whether to display all arrow options.
 - Fixed element to screen
-
+- Maintain gradients when exporting/embedding SVG.
+  - <img src="images/Cover74.PNG" width="300px">
+- Library grouping & on-demand loading.
+  - <img src="images/library1.gif" width="300px">
+  - <img src="images/library2.gif" width="300px">
+  
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
 

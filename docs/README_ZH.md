@@ -5,6 +5,7 @@
 
 根据我自己的实际需求，当自定义脚本无法满足需求时，对[obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin)进行必要的修改。
 
+自定义脚本放在了 [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts) (逐渐上传中...)
 ## 特性
 这里只列举需要修改才能实现的功能
 
@@ -22,17 +23,21 @@
   - 逐帧播放gif
   - 逐个显示、隐藏当前视图中的元素
 - 加粗文字
+  - <img src="../images/partial highlight2.gif" width="300px">
 - 容器中文字首行缩进
 - 形状、文字增加渐变
 - 形状、文字增加阴影
 - 图层功能
+  - <img src="../images/layer3.gif" width="300px">
 - 修正中文wrap异常
 - 增加拖拽点Hook
   - 测量长度功能
 - 显示画布缩略图
+  - <img src="../images/thumbnail2.gif" width="300px">
 - 鼠标悬浮Hook
   - 鼠标悬浮改变阴影 (callout、按钮)
 - 统一公式大小以匹配字体大小
+  - <img src="../images/latex_fit2.gif" width="300px">
 - 引用excalidraw画布的部分并可跳转
 - 在形状中播放gif (不是iframe)
 - 设置项
@@ -41,7 +46,12 @@
   - 是否在导出svg时嵌入字体信息
   - 是否显示所有箭头选项
 - 固定元素到屏幕
-
+- 导出/嵌入svg时保持渐变
+  - <img src="../images/Cover74.PNG" width="300px">
+- Library分组&按需加载
+  - <img src="../images/library1.gif" width="300px">
+  - <img src="../images/library2.gif" width="300px">
+  
 你可以查看演示和更多细节在:
 - 我的[B站空间](https://space.bilibili.com/39231346/)
 
