@@ -51,7 +51,9 @@
 - Library分组&按需加载
   - <img src="../images/library1.gif" width="300px">
   - <img src="../images/library2.gif" width="300px">
-  
+- 拖拽拉伸自定义形状箭头，箭头头不变形
+  - <img src="../images/fixedDragable.gif" width="300px">
+
 你可以查看演示和更多细节在:
 - 我的[B站空间](https://space.bilibili.com/39231346/)
 
