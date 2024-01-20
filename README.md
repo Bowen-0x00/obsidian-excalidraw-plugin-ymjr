@@ -54,7 +54,9 @@ When combined with custom scripts, it allows for:
   - <img src="images/library2.gif" width="300px">
 - Drag and stretch a custom-shaped arrow while keeping the arrowhead unchanged.
   - <img src="images/fixedDragable.gif" width="300px">
- 
+- Show and hide detail.
+  - <img src="images/detail2.gif" width="300px">
+
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
 
