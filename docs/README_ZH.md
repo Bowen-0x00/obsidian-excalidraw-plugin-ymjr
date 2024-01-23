@@ -6,6 +6,10 @@
 根据我自己的实际需求，当自定义脚本无法满足需求时，对[obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin)进行必要的修改。
 
 自定义脚本放在了 [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts) (逐渐上传中...)
+
+obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault)中放了一些功能演示。 你也可以看[视频](https://www.bilibili.com/video/BV1zN4y1H7Dx/) 了解部分这些功能。
+
+
 ## 特性
 这里只列举需要修改才能实现的功能
 

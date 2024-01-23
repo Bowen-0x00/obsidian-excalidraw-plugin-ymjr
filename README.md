@@ -7,6 +7,9 @@ This is a modified version of the [obsidian-excalidraw-plugin](https://github.co
 Based on my specific needs, I made necessary modifications to the obsidian-excalidraw-plugin when custom scripts couldn't fulfill those requirements.
 
 You can find the custom scripts at [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts) (Uploading...)
+
+You can find the demo obsidian vault at [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault). Here is a demonstration [video](https://www.bilibili.com/video/BV1zN4y1H7Dx/). 
+
 ## Features
 Here are the functionalities that required modifications in order to be implemented.
 
