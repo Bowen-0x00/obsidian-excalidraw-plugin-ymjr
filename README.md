@@ -90,4 +90,4 @@ You can also sponsor me a cup of coffee:
 ## Thanks
 Thanks to [zsviczian](https://github.com/zsviczian) and other contributors of [obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin).
 
-Thanks to contributors of [excalidraw](https://github.com/excalidraw/excalidraw)."
+Thanks to contributors of [excalidraw](https://github.com/excalidraw/excalidraw).
