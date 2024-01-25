@@ -59,6 +59,9 @@ When combined with custom scripts, it allows for:
   - <img src="images/fixedDragable.gif" width="300px">
 - Show and hide detail.
   - <img src="images/detail2.gif" width="300px">
+- Automatic connection feature (right-angle connection, attaching to connection points)
+  -  <img src="images/switch connection shape2.gif" width="300px">
+
 
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
