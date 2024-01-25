@@ -61,7 +61,7 @@ obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-
   - <img src="../images/detail2.gif" width="300px">
 - 自动连接功能 (直角连接、附着到连接点)
 -  <img src="../images/switch connection shape2.gif" width="300px">
-  - <img src="../images/switch connection shape_move.gif" width="300px">
+  - <img src="../images/switch connection shape_move2.gif" width="300px">
 
 
 你可以查看演示和更多细节在:
