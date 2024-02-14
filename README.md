@@ -20,6 +20,8 @@ When combined with custom scripts, it allows for:
 - Mouse event hooks
   - Show/hide elements
   - Expand/collapse mind map
+    - <img src="images/mindmap2.gif" width="300px">
+    - <img src="images/mindmap2 - mobile.gif" width="300px">
   - Adjust row/column height/width in tables
   - Zoom in/out or mouse scroll to show/hide elements
 - Keyboard event hooks
@@ -64,6 +66,10 @@ When combined with custom scripts, it allows for:
   - <img src="images/switch connection shape_move2.gif" width="300px">
 - Code syntax highlight.
   - <img src="images/code.gif" width="300px">
+- Echarts.
+  - <img src="images/echarts.gif" width="300px">
+- Eender local md, code, echarts when exporting svg.
+  - <img src="images/export svg.gif" width="300px">
 
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
