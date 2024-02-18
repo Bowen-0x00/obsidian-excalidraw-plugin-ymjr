@@ -74,6 +74,25 @@ When combined with custom scripts, it allows for:
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
 
+## Installation and Usage
+
+### Precautions
+Please make sure to backup your work to ensure that your important content is not lost (such as saving abnormalities caused by insufficient memory).
+
+For example:
+
+- Use git version control.
+- Utilize onedrive for cloud synchronization and version control.
+- Enable file recovery plugins in the core plugins.
+### Steps to Follow
+1. Install the plugin.
+   1. Method 1 (Manual Installation): Place `main.js`, `manifest.json`, and `styles.css` in the plugin directory, such as `YourVaultPath\.obsidian\plugins\obsidian-excalidraw-plugin-ymjr`.
+   2. Method 2 (BRAT Auto Installation):
+      1. Install the BRAT script from the community plugins.
+      2. In the BRAT plugin settings, click on `Add Beta plugin`.
+      3. In the prompted GitHub repository dialog, enter `Bowen-0x00/obsidian-excalidraw-plugin-ymjr`.
+2. In the `Community plugins -> Installed plugins` of Obsidian, disable the original `Excalidraw` and enable `obsidian-excalidraw-plugin-ymjr`.![Enable Plugin](images/settings%20-%20community%20plugins.PNG)
+3. Use the scripts corresponding to the functionality you need, and place the scripts in the folder specified by `Basic -> Excalidraw Automate Script folder` in your plugin settings.![Script folder](images/settings%20-%20script%20folder.PNG)
 
 ## Feedback, questions, ideas, problems
 Feel free to contact me if:

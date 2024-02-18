@@ -74,6 +74,24 @@ obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-
 你可以查看演示和更多细节在:
 - 我的[B站空间](https://space.bilibili.com/39231346/)
 
+## 安装与使用
+### 注意事项
+请做好备份工作以保证你的重要内容不会丢失（如内存不足导致的保存异常）。
+
+如：
+- git版本控制
+- onedrive云同步和版本控制
+- 核心插件中的文件恢复插件
+
+### 使用步骤
+1. 安装插件。
+   1. 方式一（手动安装）：将`main.js`、`manifest.json`、`styles.css`放到插件目录，如`库路径\.obsidian\plugins\obsidian-excalidraw-plugin-ymjr`
+   2. 方式二（BRAT自动安装）：
+      1. 从插件市场安装BRAT脚本
+      2. 在BRAT插件的设置中点击`Add Beta plugin`
+      3. 在弹出的github仓库对话框中输入`Bowen-0x00/obsidian-excalidraw-plugin-ymjr`
+2. 在OB的第三方插件中，关闭原本的`Excalidraw`，打开`obsidian-excalidraw-plugin-ymjr`。![Enable Plugin](../images/settings%20-%20community%20plugins.PNG)
+3. 搭配你需要的功能所对应的脚本使用，脚本放在你插件设置中的`基本 -> Excalidraw自动化脚本的文件夹`所制定的文件夹下。![Script folder](../images/settings%20-%20script%20folder.PNG)
 ## 问题、反馈、创意
 欢迎联系我，如果：
 - 遇到使用问题
