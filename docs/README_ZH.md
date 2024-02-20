@@ -70,7 +70,9 @@ obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-
   - <img src="../images/echarts.gif" width="300px">
 - 导出/嵌入svg时渲染本地md、代码高亮、echarts.
   - <img src="../images/export svg.gif" width="300px">
-
+- 日历元素（素材库添加时可以动态改变）.
+  - <img src="../images/calendar element.gif" width="300px">
+ 
 你可以查看演示和更多细节在:
 - 我的[B站空间](https://space.bilibili.com/39231346/)
 

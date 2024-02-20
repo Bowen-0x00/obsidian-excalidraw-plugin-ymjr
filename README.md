@@ -70,6 +70,8 @@ When combined with custom scripts, it allows for:
   - <img src="images/echarts.gif" width="300px">
 - Eender local md, code, echarts when exporting svg.
   - <img src="images/export svg.gif" width="300px">
+- Calendar element.
+  - <img src="images/calendar element.gif" width="300px">
 
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
