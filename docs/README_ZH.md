@@ -72,6 +72,8 @@ obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-
   - <img src="../images/export svg.gif" width="300px">
 - 日历元素（素材库添加时可以动态改变）.
   - <img src="../images/calendar element.gif" width="300px">
+- 流动动画
+  - <img src="../images/arrow flow animation.gif" width="300px">
  
 你可以查看演示和更多细节在:
 - 我的[B站空间](https://space.bilibili.com/39231346/)

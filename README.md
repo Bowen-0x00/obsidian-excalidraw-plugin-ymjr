@@ -72,6 +72,8 @@ When combined with custom scripts, it allows for:
   - <img src="images/export svg.gif" width="300px">
 - Calendar element.
   - <img src="images/calendar element.gif" width="300px">
+- Flow animation
+  - <img src="images/arrow flow animation.gif" width="300px">
 
 You can view the demonstration and more details on
 - My [Bilibili Space](https://space.bilibili.com/39231346/).
