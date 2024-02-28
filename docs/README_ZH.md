@@ -74,6 +74,8 @@ obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-
   - <img src="../images/calendar element.gif" width="300px">
 - 流动动画
   - <img src="../images/arrow flow animation.gif" width="300px">
+- 高亮连接
+  - <img src="../images/highlight link.gif" width="300px">
  
 你可以查看演示和更多细节在:
 - 我的[B站空间](https://space.bilibili.com/39231346/)
