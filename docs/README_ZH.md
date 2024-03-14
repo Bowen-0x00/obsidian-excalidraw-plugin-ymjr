@@ -4,6 +4,7 @@
 [English](../README.md) | [简体中文](./README_ZH.md)
 
 根据我自己的实际需求，当自定义脚本无法满足需求时，对[obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin)进行必要的修改。
+<img src="../images/Excalidraw关系.excalidraw.svg">
 
 自定义脚本放在了 [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts) (逐渐上传中...)
 
