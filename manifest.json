@@ -1,11 +1,11 @@
 {
   "id": "obsidian-excalidraw-plugin-ymjr",
   "name": "Excalidraw-ymjr",
-  "version": "2.10.1-2",
+  "version": "2.11.1-1",
   "minAppVersion": "1.1.6",
   "description": "An Obsidian plugin to edit and view Excalidraw drawings (modified by 一鸣惊人)",
   "author": "Zsolt Viczian (modified by 一鸣惊人)",
-  "authorUrl": "https://www.zsolt.blog",
+  "authorUrl": "https://excalidraw-obsidian.online",
   "fundingUrl": "https://ko-fi.com/zsolt",
   "helpUrl": "https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr#readme",
   "isDesktopOnly": false
