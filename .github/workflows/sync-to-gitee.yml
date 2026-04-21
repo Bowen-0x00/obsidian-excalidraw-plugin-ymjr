@@ -14,8 +14,9 @@ jobs:
         uses: Yikun/hub-mirror-action@master
         with:
           src: github/Bowen-0x00
-          dst: gitee/Shadow
+          dst: gitee/Bowen-0x00
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           account_type: user
           force_update: true
+          static_list: '${{ github.event.repository.name }}'
