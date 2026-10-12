@@ -11,6 +11,19 @@
 obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault)中放了一些功能演示。 你也可以看[视频](https://www.bilibili.com/video/BV1zN4y1H7Dx/) 了解部分这些功能。
 
 
+## 源码与编译
+
+<!-- ymjr: preserve the established distribution repository while linking public source. -->
+本仓库继续作为 Excalidraw-ymjr 的安装、说明文档和版本发布入口。已有 BRAT 用户继续填写 `Bowen-0x00/obsidian-excalidraw-plugin-ymjr`，无需更换仓库地址。
+
+- [插件源码（`ymjr` 分支）](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin/tree/ymjr)
+- [Excalidraw 组件源码（`ymjr` 分支）](https://github.com/Bowen-0x00/excalidraw/tree/ymjr)
+- [编译与发布说明](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin/blob/ymjr/docs/ymjr-build.md)
+- [插件自定义功能清单](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin/blob/ymjr/docs/ymjr-customizations.md)
+- [组件自定义功能清单](https://github.com/Bowen-0x00/excalidraw/blob/ymjr/docs/ymjr-customizations.md)
+
+请从 [GitHub Releases](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr/releases) 下载三个独立的插件文件。根目录文件保留以兼容已有下载链接；不再维护重复的 `src/` 编译文件和旧源码压缩包。完整源码现位于上述两个公开 fork。
+
 ## 特性
 这里只列举需要修改才能实现的功能
 
@@ -92,7 +105,7 @@ obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-
 
 ### 使用步骤
 1. 安装插件。
-   1. 方式一（手动安装）：将`main.js`、`manifest.json`、`styles.css`放到插件目录，如`库路径\.obsidian\plugins\obsidian-excalidraw-plugin-ymjr`
+   1. 方式一（手动安装）：从[最新 Release](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr/releases/latest) 下载 `main.js`、`manifest.json`、`styles.css`，放到插件目录，如 `库路径\.obsidian\plugins\obsidian-excalidraw-plugin-ymjr`。
    2. 方式二（BRAT自动安装）：
       1. 从插件市场安装BRAT脚本
       2. 在BRAT插件的设置中点击`Add Beta plugin`

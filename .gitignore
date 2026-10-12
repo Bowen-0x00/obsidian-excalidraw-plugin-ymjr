@@ -1,0 +1,14 @@
+# ymjr -- Keep private files and redundant development output out of the release repository.
+node_modules/
+dist/
+lib/
+src/
+/prompt
+.env
+.env.*
+*.7z
+*.zip
+*.tar.gz
+*.log
+.DS_Store
+Thumbs.db

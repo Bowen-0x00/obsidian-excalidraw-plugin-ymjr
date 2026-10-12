@@ -12,6 +12,19 @@ You can find the custom scripts at [obsidian-excalidraw-scripts](https://github.
 
 You can find the demo obsidian vault at [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault). Here is a demonstration [video](https://www.bilibili.com/video/BV1zN4y1H7Dx/). 
 
+## Source code and builds
+
+<!-- ymjr: preserve the established distribution repository while linking public source. -->
+This repository remains the installation, documentation, and release location for Excalidraw-ymjr. Existing BRAT users should continue tracking `Bowen-0x00/obsidian-excalidraw-plugin-ymjr`.
+
+- [Plugin source (`ymjr` branch)](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin/tree/ymjr)
+- [Excalidraw component source (`ymjr` branch)](https://github.com/Bowen-0x00/excalidraw/tree/ymjr)
+- [Build and release instructions](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin/blob/ymjr/docs/ymjr-build.md)
+- [Plugin customization inventory](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin/blob/ymjr/docs/ymjr-customizations.md)
+- [Component customization inventory](https://github.com/Bowen-0x00/excalidraw/blob/ymjr/docs/ymjr-customizations.md)
+
+Download the three individual plugin files from [GitHub Releases](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr/releases). The root-level files remain available for existing download links; the redundant `src/` copies and historical source archive are no longer maintained. The complete matching source now lives in the two public source forks.
+
 ## Features
 Here are the functionalities that required modifications in order to be implemented.
 
@@ -94,7 +107,7 @@ For example:
 - Enable file recovery plugins in the core plugins.
 ### Steps to Follow
 1. Install the plugin.
-   1. Method 1 (Manual Installation): Place `main.js`, `manifest.json`, and `styles.css` in the plugin directory, such as `YourVaultPath\.obsidian\plugins\obsidian-excalidraw-plugin-ymjr`.
+   1. Method 1 (Manual Installation): Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr/releases/latest) and place them in the plugin directory, such as `YourVaultPath\.obsidian\plugins\obsidian-excalidraw-plugin-ymjr`.
    2. Method 2 (BRAT Auto Installation):
       1. Install the BRAT script from the community plugins.
       2. In the BRAT plugin settings, click on `Add Beta plugin`.
