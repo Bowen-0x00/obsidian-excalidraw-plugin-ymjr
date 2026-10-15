@@ -1,0 +1,42 @@
+name: Notify Example Vault of plugin updates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'main.js'
+      - 'manifest.json'
+      - 'styles.css'
+      - '.github/scripts/notify_vault.py'
+      - '.github/workflows/notify-vault.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify-example-vault-plugin
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    if: github.repository == 'Bowen-0x00/obsidian-excalidraw-plugin-ymjr'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Dispatch notification to Example Vault
+        env:
+          GH_TOKEN: ${{ secrets.VAULT_SYNC_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo 'Missing VAULT_SYNC_TOKEN for Example Vault dispatch.' >&2
+            exit 1
+          fi
+          python .github/scripts/notify_vault.py
