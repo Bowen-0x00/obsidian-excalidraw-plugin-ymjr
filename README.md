@@ -8,7 +8,7 @@ Based on my specific needs, I made necessary modifications to the obsidian-excal
 
 <img src="images/Excalidraw关系.excalidraw.svg">
 
-You can find the custom scripts at [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts) (Uploading...)
+Custom scripts and their installation catalog are available in [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts).
 
 You can find the demo obsidian vault at [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault). Here is a demonstration [video](https://www.bilibili.com/video/BV1zN4y1H7Dx/). 
 
@@ -24,6 +24,19 @@ This repository remains the installation, documentation, and release location fo
 - [Component customization inventory](https://github.com/Bowen-0x00/excalidraw/blob/ymjr/docs/ymjr-customizations.md)
 
 Download the three individual plugin files from [GitHub Releases](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr/releases). The root-level files remain available for existing download links; the redundant `src/` copies and historical source archive are no longer maintained. The complete matching source now lives in the two public source forks.
+
+## Native tables in 2.29.0-4
+
+<!-- ymjr -- Tables are host-owned; old script engines must not run alongside them. -->
+Create a table from the command palette or paste Markdown. Automatic rows grow and shrink with content; fixed rows display ellipsis while keeping the full editable source. Cells support native images and editable diagram groups. Floating controls manage rows, columns and properties.
+
+Eight palettes combine with five border templates, independent header/body fills and an optional native soft shadow. Academic tables have exactly three horizontal rules. PNG/SVG export preserves the native layout.
+
+- [Real gallery and 26 editable examples](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts#native-tables-themes-and-templates)
+- Optional shortcuts: `Action-Table-Generate` and `Action-Table-Modify` **1.1.0**, requiring **2.29.0-4 or later**. Version 2.29.0-3 does not include native tables.
+- Before upgrading existing script tables, stop and remove `Feature-Table-Engine.md` and `Feature-Table-Paste-MD.md`, then restart Obsidian. Removing catalog entries does not uninstall old local scripts. Existing drawings migrate on opening, retaining cell/text IDs.
+- Verified on Windows Obsidian 1.14.4; narrow desktop viewport checks are not physical mobile validation.
+
 
 ## Features
 Here are the functionalities that required modifications in order to be implemented.

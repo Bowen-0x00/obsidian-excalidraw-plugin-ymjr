@@ -6,7 +6,7 @@
 根据我自己的实际需求，当自定义脚本无法满足需求时，对[obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin)进行必要的修改。
 <img src="../images/Excalidraw关系.excalidraw.svg">
 
-自定义脚本放在了 [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts) (逐渐上传中...)
+自定义脚本、介绍与安装目录：[obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts)。
 
 obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault)中放了一些功能演示。 你也可以看[视频](https://www.bilibili.com/video/BV1zN4y1H7Dx/) 了解部分这些功能。
 
@@ -23,6 +23,19 @@ obsidian 示例库 [obsidian-excalidraw-example-vault](https://github.com/Bowen-
 - [组件自定义功能清单](https://github.com/Bowen-0x00/excalidraw/blob/ymjr/docs/ymjr-customizations.md)
 
 请从 [GitHub Releases](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr/releases) 下载三个独立的插件文件。根目录文件保留以兼容已有下载链接；不再维护重复的 `src/` 编译文件和旧源码压缩包。完整源码现位于上述两个公开 fork。
+
+## 2.29.0-4 原生表格
+
+<!-- ymjr -- Tables are host-owned; old script engines must not run alongside them. -->
+通过命令面板创建表格，或粘贴 Markdown 表格。自动行高随内容增减，固定行高省略显示但保留完整原文；单元格支持原生图片和可编辑组合图形，浮动工具栏管理行列与属性。
+
+8 套配色可搭配 5 种边框模板，独立设置表头／正文填充与整体柔和阴影。学术三线表只有三条水平线，PNG／SVG 保留原生布局。
+
+- [真实图集与 26 组可编辑示例](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts/blob/main/docs/README_ZH.md#原生表格主题与模板)
+- 可选快捷动作 `Action-Table-Generate`、`Action-Table-Modify` **1.1.0**，依赖宿主 **2.29.0-4 或更高版本**。2.29.0-3 不含原生表格。
+- 已安装旧表格脚本时，先停用并移除 `Feature-Table-Engine.md`、`Feature-Table-Paste-MD.md`，再重启 Obsidian。市场删除条目不会自动卸载本地旧脚本。旧绘图打开时迁移并保留单元格及文字 ID。
+- 已验证 Windows Obsidian 1.14.4；窄窗口检查不等于实机移动端验收。
+
 
 ## 特性
 这里只列举需要修改才能实现的功能
