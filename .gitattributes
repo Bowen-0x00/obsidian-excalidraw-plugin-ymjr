@@ -1,0 +1,4 @@
+# ymjr -- Preserve the exact tested release bytes across Windows checkout and raw downloads.
+/main.js -text
+/styles.css -text
+/manifest.json -text
